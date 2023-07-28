@@ -1,0 +1,49 @@
+
+body{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+margin-top: 13%;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ 
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: rgb(91, 91, 236);
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    display: block;
+    border: none;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(64, 64, 255);
+}
+h2{
+    margin-left :34px ; 
+}
+ li{
+    margin-left :34px ;
+    padding: 6px;
+}
+
